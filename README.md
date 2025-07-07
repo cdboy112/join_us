@@ -33,9 +33,11 @@ git clone https://github.com/cdboy112/join_us.git
 cd join_us
 npm install
 
--- In MySQL shell:
-CREATE DATABASE IF NOT EXISTS my_sql;
-USE my_sql;
+
+-- In MySQL shell
+CREATE DATABASE IF NOT EXISTS my_sql
+USE my_sql
+
 CREATE TABLE IF NOT EXISTS users (
   id INT PRIMARY KEY AUTO_INCREMENT,
   email VARCHAR(255) NOT NULL UNIQUE
