@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <title>Join Us!</title>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Join Our Community!</h1>
+
+    <% if (error) { %>
+      <div class="error"><%= error %></div>
+    <% } %>
+
+    <form action="/register" method="POST">
+      <div class="form-group">
+        <input id="email" type="email" name="email" placeholder="you@example.com" required autocomplete="off">
+      </div>
+      <button type="submit">Register</button>
+    </form>
+
+    <div class="count">
+      🎉 Total members: <%= count %>
+    </div>
+  </div>
+</body>
+</html>
