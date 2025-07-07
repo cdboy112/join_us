@@ -42,11 +42,12 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 
-📋 Usage
+
+**📋Usage
 Start the server:
 npm start
 # or
-node app.js
+node app.js**
 
 
 
