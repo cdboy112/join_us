@@ -1,5 +1,25 @@
 ![join_us](https://github.com/user-attachments/assets/1b6a4dba-32a3-4d66-9ff1-294197d3281b)
 <br>
+MailCollector is a lightweight, easy-to-integrate service that captures and validates user email subscriptions from any website. It offers:
+<br>
+
+💡 Real‑time email validation (format and domain checks)
+<br>
+
+⚙️ Seamless integration via embeddable HTML or JS widget
+<br>
+
+🗃️ Secure storage of email leads in a local database
+<br>
+
+↪️ Optional webhook forwarding to Mailchimp, SendGrid, or your CRM
+<br>
+
+📥 Built‑in export of collected addresses for CSV backup or analysis
+<br>
+
+Ideal for bloggers, startups, or small businesses who need a fuss‑free way to gather and manage newsletter sign‑ups—no heavy configuration or vendor lock‑in. Inspired by best practices that emphasize clarity, structure, and inviting documentation <br>
+
 <br>
 ⚙️ Technologies
 List the key tools you used:
